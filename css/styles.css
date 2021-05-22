@@ -138,7 +138,7 @@ img {
 }
 
 .contacts-link:hover .contacts-link-icon,
-.contacts-link:focus .contacts-link-ico {
+.contacts-link:focus .contacts-link-icon {
   fill: var(--accent-color);
 }
 
@@ -209,6 +209,13 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.features-item-illustration {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--secondary-background-color);
 }
 
 .features-heading {
