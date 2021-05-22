@@ -103,11 +103,19 @@ img {
 }
 
 .contacts-link {
+  display: flex;
+  align-items: center;
   color: var(--paragraph-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.contacts-link-icon {
+  display: block;
+  margin-right: 10px;
+  fill: var(--paragraph-text-color);
 }
 
 .contacts {
@@ -127,6 +135,11 @@ img {
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
+}
+
+.contacts-link:hover .contacts-link-icon,
+.contacts-link:focus .contacts-link-ico {
+  fill: var(--accent-color);
 }
 
 /* Секция герой */
