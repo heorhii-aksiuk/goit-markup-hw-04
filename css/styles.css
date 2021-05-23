@@ -7,6 +7,7 @@
   --main-background-color: #ffffff;
   --secondary-background-color: #f5f4fa;
   --accent-color: #2196f3;
+  --icon-color: #afb1b8;
 }
 
 body {
@@ -330,12 +331,48 @@ img {
 
 .team-social-icon {
   display: inline-block;
-  fill: #afb1b8;
+  fill: var(--icon-color);
 }
 
 .team-social-item-link:hover .team-social-icon,
 .team-social-item-link:focus .team-social-icon {
   fill: var(--secondary-text-color);
+}
+
+/* Секция "Постоянные клиенты" */
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: var(--main-background-color);
+}
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-item-link {
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+}
+
+.clients-item-link:hover,
+.clients-item-link:focus {
+  border: 1px solid var(--accent-color);
+}
+
+.clients-item-icon {
+  fill: var(--icon-color);
+}
+
+.clients-item-link:hover .clients-item-icon,
+.clients-item-link:focus .clients-item-icon {
+  fill: var(--accent-color);
 }
 
 /* Футер сайта */
