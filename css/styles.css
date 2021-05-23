@@ -279,6 +279,8 @@ img {
 .team-desc {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .section-subheading {
@@ -290,10 +292,41 @@ img {
 }
 
 .profession {
+  margin-bottom: 16px;
   color: var(--paragraph-text-color);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+}
+
+.team-social-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-social-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--main-background-color);
+  border-radius: 50%;
+}
+
+.team-social-item-link:hover,
+.team-social-item-link:focus {
+  background-color: var(--accent-color);
+}
+
+.team-social-icon {
+  display: inline-block;
+  fill: #afb1b8;
+}
+
+.team-social-item-link:hover .team-social-icon,
+.team-social-item-link:focus .team-social-icon {
+  fill: var(--secondary-text-color);
 }
 
 /* Футер сайта */
