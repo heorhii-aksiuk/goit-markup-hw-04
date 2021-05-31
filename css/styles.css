@@ -11,6 +11,7 @@
 }
 
 body {
+  min-width: 1200px;
   font-family: var(--main-font);
   color: var(--main-text-color);
   letter-spacing: 0.03em;
