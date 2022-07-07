@@ -1,2 +1,2 @@
 # goit-markup-hw-04
-GoIT. Markup. Homework #4 (Graphics, SVG)
+GoIT. HTML&CSS. Homework #4 (Graphics, SVG)
